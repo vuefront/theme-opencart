@@ -1,0 +1,8 @@
+// export * from './compare-actions'
+// export * from './currency'
+export * from './footer'
+export * from './header'
+    // export * from './post-module'
+    // export * from './product-module'
+export * from './search-inline-form'
+    // export * from './wishlist-actions'

@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "OpenCart Theme Build",
+            "type": "npm",
+            "script": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "OpenCart Theme Sync",
+            "type": "shell",
+            "command": "sync-glob '**/*' '!node_modules/**/*' '../opencart-theme-test/node_modules/@vuefront/opencart-theme' --watch --delete",
+            "problemMatcher": [],
+            "presentation": {
+                "group": "Front"
+            }
+        }
+    ]
+}

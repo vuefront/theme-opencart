@@ -1,0 +1,33 @@
+.breadcrumb {
+    padding: 8px 0;
+    border: 1px solid #ddd
+}
+
+.breadcrumb>li {
+    text-shadow: 0 1px 0 #fff;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    font-size: 12px !important
+}
+
+.breadcrumb>li+li:before {
+    content: '';
+    padding: 0
+}
+
+.breadcrumb>li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    width: 26px;
+    height: 26px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}

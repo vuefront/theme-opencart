@@ -1,0 +1,27 @@
+.vf-m-product-thumb {
+    .vf-m-price__special+span {
+        color: #999;
+        padding-left: 15px;
+    }
+    &__name.h6 {
+        color: #23a1d1;
+        justify-content: left;
+    }
+    .vf-m-button-group {
+        border-radius: 0px;
+        border: none;
+        border-top: 1px solid #ddd;
+        >.btn {
+            border-radius: 0px;
+            border-left: 1px solid #ddd;
+            &:first-child {
+                border-left: none;
+            }
+        }
+    }
+    &--wide {
+        .vf-m-button-group>.btn:first-child {
+            border-left: 1px solid #ddd;
+        }
+    }
+}
