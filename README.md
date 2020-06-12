@@ -11,12 +11,6 @@ add to `vuefront.config.js` new item `theme`
   export default {
         theme: '@vuefront/theme-opencart',
 ```
-
-add to `.env` file
-```
-VUEFRONT_THEME="@vuefront/theme-opencart"
-```
-
 4. Run command `yarn dev`
 
 Enjoy!

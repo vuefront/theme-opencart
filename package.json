@@ -1,6 +1,6 @@
 {
-    "name": "@vuefront/opencart-theme",
-    "version": "0.1.4",
+    "name": "@vuefront/theme-opencart",
+    "version": "0.1.5",
     "description": "VueFront OpenCart theme",
     "files": [
         "lib",
