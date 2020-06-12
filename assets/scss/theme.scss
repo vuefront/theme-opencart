@@ -3,7 +3,7 @@
  * Add it to your vuefront.config.js file.
 
     css: [
-        '@/assets/css/main.scss'
+        '@/assets/scss/main.scss'
     ],
 
  * Other SCSS files should be included vie this main file.
@@ -12,11 +12,7 @@
 
  */
 
-@import 'node_modules/bootstrap/scss/functions';
-@import 'variables.scss';
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
-@import 'breadcrumbs.scss';
+@import 'breadcrumbs';
 @import 'sticky-footer';
 .main-content {
     padding-top: 30px;

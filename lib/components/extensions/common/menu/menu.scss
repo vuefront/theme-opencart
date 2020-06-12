@@ -7,7 +7,7 @@
     padding: 0px 15px;
     border-radius: 4px;
     border: 1px solid transparent;
-    .vf-e-common-menu__item {
+    &__item {
         background: none;
         >.vf-e-common-menu__link {
             >.vf-e-common-menu__title,
@@ -17,7 +17,7 @@
             }
         }
     }
-    .vf-e-common-menu__submenu {
+    &__submenu {
         &--vertical {
             top: 39px;
         }

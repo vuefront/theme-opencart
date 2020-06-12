@@ -16,12 +16,11 @@
     &__image_wrapper {
         min-height: 158px;
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         justify-content: center;
         >img {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
     }
-    &__image {}
 }

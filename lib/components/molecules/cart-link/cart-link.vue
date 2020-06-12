@@ -16,9 +16,7 @@ export default {
 .vf-m-cart-link--opencart {
   .vf-a-button {
     padding: 10px 25px;
-    font-size: 14px;
-    color: #fff !important;
-    height: 40px;
+    font-size: 12px;
   }
 }
 </style>
